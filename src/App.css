@@ -1,28 +1,40 @@
 .App {
-  text-align: center;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  border: 1px solid blue;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.Main {
+  border: 1px solid black;
+  padding: 0px 40px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between;
+  align-items: space-between; */
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.Sidebar {
+  border: 1px solid black;
+  padding: 10px;
 }
 
-.App-title {
-  font-size: 1.5em;
+.Message {
+  border: 1px solid orange;
 }
 
-.App-intro {
-  font-size: large;
+.NewMessageInput {
+  border: 1px solid red;
+  margin: 10px 0;
+  margin-top: auto;
+  /* margin-left: auto; */
+  /* align-self: flex-end; */
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.PeopleDisplay {
+  border: 1px solid lightskyblue;
+}
+
+.RoomsDisplay {
+  border: 1px solid forestgreen;
 }
