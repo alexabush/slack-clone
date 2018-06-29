@@ -77,3 +77,8 @@ ul {
 .name {
   font-weight: 800;
 }
+
+ul > li:before {
+  content: '# ';
+  color: rgb(158, 145, 155);
+}
