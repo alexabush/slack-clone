@@ -9,7 +9,7 @@ class PeopleDisplay extends Component {
     people.unshift(<li>You</li>);
     return (
       <div className="PeopleDisplay">
-        <h1>pd</h1>
+        <h2>People in this Chat</h2>
         <ul>{people}</ul>
       </div>
     );
