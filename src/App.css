@@ -78,7 +78,7 @@ ul {
   font-weight: 800;
 }
 
-ul > li:before {
+.RoomsDisplay li:before {
   content: '# ';
   color: rgb(158, 145, 155);
 }
